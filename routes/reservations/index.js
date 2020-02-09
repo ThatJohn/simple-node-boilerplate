@@ -7,7 +7,6 @@ router.get('/', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
-  console.log(req.body);
   res.json(await Reservation.new(req));
 });
 
