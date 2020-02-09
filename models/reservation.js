@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
         createdAt: new Date(),
         updatedAt: new Date()
       })
-        .then(result => res.json(result));
+      //.then(result => res.json(result));
     }
   }
 
