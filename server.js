@@ -13,5 +13,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/reservations', reservationsRouter);
 
 app.listen(port, () => {
+  console.clear();
   console.log(`Server app listening on port ${port}!`);
 });
