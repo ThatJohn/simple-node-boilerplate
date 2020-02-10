@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
 
   class Reservation extends SequelizeReservation {
     static async all() {
-      return await this.findAll({ group: ['slot'] });
+      return await this.findAll();
     }
 
     static async new(req, res) {

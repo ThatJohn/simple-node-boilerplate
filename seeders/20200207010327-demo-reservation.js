@@ -17,8 +17,92 @@ module.exports = {
         updatedAt: new Date()
       },
       {
-        name: 'Pepetruen0',
-        slot: new Date('02/21/2020 18:30:00').toGMTString(),
+        name: 'Some dude',
+        slot: new Date('2020-02-21T23:30:00.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'John Fajardo',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Bruce Wayne',
+        slot: new Date('2020-02-09T04:10:33.037Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Clark Kent',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Steve Rogers',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Barry Allen',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Peter Parker',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Tony Stark',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Scott Summers',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Billy Batson',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Bruce Banner',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Matt Murdock',
+        slot: new Date('2020-02-09T04:10:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Jessica Jones',
+        slot: new Date('2020-02-11T10:14:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Luke Cage',
+        slot: new Date('2020-02-11T22:14:33.000Z'),
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        name: 'Oliver Queen',
+        slot: new Date('2020-02-12T22:14:33.000Z'),
         createdAt: new Date(),
         updatedAt: new Date()
       }
@@ -29,36 +113,3 @@ module.exports = {
     return queryInterface.bulkDelete('Reservations', null, {});
   }
 };
-
-// let myDate = new Date('02/21/2020 18:30:00');
-// undefined
-// myDate
-// Date Fri Feb 21 2020 18:30:00 GMT-0500 (Eastern Standard Time)
-
-// myDate.toISOString
-// function toISOString()
-
-// myDate.toISOString()
-// "2020-02-21T23:30:00.000Z"
-// myDate.toGMTString()
-// "Fri, 21 Feb 2020 23:30:00 GMT"
-// gmtDate = myDate.toGMTString();
-// "Fri, 21 Feb 2020 23:30:00 GMT"
-// gmtDate.toISOString();
-// TypeError: gmtDate.toISOString is not a function
-// debugger eval code:1:9
-// gmtDate.toISOString()
-// TypeError: gmtDate.toISOString is not a function
-// debugger eval code:1:9
-// gmtDate.type
-// undefined
-// gmtDate.typeOf
-// undefined
-// typeof(gmtDate)
-// "string"
-// gmtDate
-// "Fri, 21 Feb 2020 23:30:00 GMT"
-// reconv = new Date(gmtDate);
-// Date Fri Feb 21 2020 18:30:00 GMT-0500 (Eastern Standard Time)
-
-// ​
