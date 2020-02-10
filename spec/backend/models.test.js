@@ -11,7 +11,6 @@ test("Reservation.all() should return an array", async () => {
   expect(result.length).toEqual(17);
 });
 
-
 test("Reservation.duplicates() should return an array", async () => {
   const result = await Reservation.duplicates() || [];
   expect(result.length).toEqual(8);
