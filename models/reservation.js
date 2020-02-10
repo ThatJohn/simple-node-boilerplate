@@ -12,7 +12,6 @@ module.exports = (sequelize, DataTypes) => {
     }
 
     static async new(req, res) {
-      console.log(req.body.slot);
       return await this.create({
         name: req.body.name,
         slot: new Date(req.body.slot),
